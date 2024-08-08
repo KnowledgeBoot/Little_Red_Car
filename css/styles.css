@@ -1,0 +1,49 @@
+/* Кнопка */
+
+.default-btn {
+    display: inline-block;
+    color: var(--black-color);
+    padding: 11px 47px;
+    border-radius: 12px;
+    background-color: var(--base-color);
+    border: none;
+    outline: 1px solid transparent;
+    outline-offset: 2px;
+    transition: outline-color var(--transition-duration), backgroun-color var(--transition-duration);
+    cursor: pointer;
+}
+
+.default-btn:focus-visible {
+    outline-color: var(--base-color);
+}
+
+.default-btn:hover {
+    background-color: var(--base-color-hover);
+}
+
+.default-btn:active {
+    background-color: var(--base-color-active);
+}
+
+
+/* Квадрат */
+
+.ball-box {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    left: 150px;
+    top: 100px;
+}
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+}
+
+.button-box {
+    position: relative;
+    left: 10px;
+}
