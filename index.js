@@ -23,25 +23,3 @@ rightButton.addEventListener('click', function(e) {
     let goRight = ball.offsetLeft;
     ball.style.left = goRight + 40 + "px";
 });
-
-// window.addEventListener('keydown', function(e) {
-
-//     console.log('key code - ', e.keyCode);
-//     if (e.keyCode == 38) {
-//         let goUp = ball.offsetTop;
-//         console.log(goUp);
-//         ball.style.top = goUp - 40 + "px";
-//     }
-//     if (e.keyCode == 40) {
-//         let goDown = ball.offsetTop
-//         ball.style.top = goDown + 40 + "px"
-//     }
-//     if (e.keyCode == 37) {
-//         let goLeft = ball.offsetLeft
-//         ball.style.left = goLeft - 40 + "px"
-//     }
-//     if (e.keyCode == 39) {
-//         let goRight = ball.offsetLeft
-//         ball.style.left = goRight + 40 + "px"
-//     }
-// })
