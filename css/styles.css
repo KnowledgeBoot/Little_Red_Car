@@ -1,17 +1,10 @@
 /* Квадрат */
 
-
 .ball-box {
     position: absolute;
     width: 100px;
     height: 150px;
     left: 10px;
-}
-
-.map {
-    position: relative;
-    left: 35px;
-    top: 1px;
 }
 
 .ball {
@@ -23,7 +16,7 @@
     top: 35px;
 }
 
-.mapCar {
+.mapTrack {
     position: relative;
     left: 35px;
     top: 1px;
@@ -32,5 +25,5 @@
 .button-box {
     position: absolute;
     left: 15px;
-    top: 250px;
+    top: 200px;
 }
