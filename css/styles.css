@@ -1,22 +1,36 @@
 /* Квадрат */
 
+
 .ball-box {
-    position: relative;
+    position: absolute;
     width: 100px;
     height: 150px;
     left: 10px;
-    top: 70px;
+}
+
+.map {
+    position: relative;
+    left: 35px;
+    top: 1px;
 }
 
 .ball {
-    position: absolute;
+    position: relative;
     background-color: red;
     width: 20px;
     height: 20px;
-    left: 20px;
+    left: 35px;
+    top: 35px;
+}
+
+.mapCar {
+    position: relative;
+    left: 35px;
+    top: 1px;
 }
 
 .button-box {
-    position: relative;
+    position: absolute;
     left: 15px;
+    top: 250px;
 }
