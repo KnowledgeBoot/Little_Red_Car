@@ -27,3 +27,16 @@
     left: 15px;
     top: 200px;
 }
+
+#text_out {
+    position: absolute;
+    top: 250px;
+    margin: 30px;
+    padding: 20px 40px;
+  }
+
+#text_change {
+    color: #D32F2F;
+    font-size: 25px;
+    font-weight: 700;
+}
