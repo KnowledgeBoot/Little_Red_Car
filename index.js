@@ -5,6 +5,8 @@ let currentPositionBall = startingPositionBall;
 
 let stepBall = 10;
 
+let speedometer = document.querySelector('.speedometer');
+
 function text_out() {
     let goRight = ball.offsetLeft;
     
@@ -19,6 +21,8 @@ function text_out() {
 
     var p = document.getElementById('text_change');
     p.innerHTML = currentPositionBall;
+
+    document.getElementById('speedometer').value += stepBall;
 }
 
 function text_restsrt() {
@@ -28,4 +32,6 @@ function text_restsrt() {
     var restart = document.getElementById('text_change');
     currentPositionBall = startingPositionBall
     restart.innerHTML = currentPositionBall;
+
+    document.getElementById('speedometer').value = 0;
 }
