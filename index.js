@@ -10,12 +10,18 @@ let stepBall = 10;
 
 rightButton.addEventListener('click', function(e) {
     let goRight = ball.offsetLeft;
-    ball.style.left = goRight + stepBall + "px";
-    currentPositionBall += stepBall;
+    
+    if (currentPositionBall < 145) {
+        ball.style.left = goRight + stepBall + "px";
+        currentPositionBall += stepBall;
+    } else {
+        document.getElementById('img').style.display = "block";
+    }
 });
 
 restartButton.addEventListener('click', function(e) {
     ball.style.left = startingPositionBall + "px";
+    document.getElementById('img').style.display = "none";
 });
 
 function text_out() {
