@@ -28,6 +28,7 @@
 
 #text_out {
     position: absolute;
+    display: block;
     top: 200px;
     margin: 30px;
     padding: 20px 20px;
@@ -58,6 +59,7 @@ progress {
 
 .speedometer {
     position: absolute;
-    left: 10px;
+    display: block;
+    left: 15px;
     top: 100px;
 }
